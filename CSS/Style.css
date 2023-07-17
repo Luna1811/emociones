@@ -1,0 +1,180 @@
+body 
+{
+    font-family: 'Raleway', sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+nav
+{
+    width: 100%; /* Ancho */
+    height: 100px;
+    background-color:rgb(49, 39, 131);
+    
+}
+
+nav ul li
+{
+list-style-type:none;
+display: inline-block;
+transition: 0.8s all;
+padding: 18px 20px;
+}
+
+nav ul li:hover
+{
+    background-color: rgb(66, 186, 234);
+}
+
+.img-logo
+{
+    width: 60px;
+    padding: 10px;
+    /*padding-right: 20px;*/
+    padding-top: 2%;
+}
+
+nav ul
+{
+    padding: 10px;
+    display: inline-flex;
+    position: relative;
+    /*top: -30px;*/
+    
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+}
+
+h1,h2,ul,figure,img
+{
+    margin: 0;
+}
+
+img
+{
+    max-width: 100%;
+}
+
+section
+{
+    padding: 30px;
+}
+
+section, h2
+{
+    border-bottom: 1px solid black;
+    vertical-align: top;
+    text-align: center;
+}
+
+.texbineta
+{
+    text-align:left; 
+}
+
+.seccion1
+{
+background-color: rgb(221, 210, 255);
+}
+
+.seccion2
+{
+background-color: rgb(253, 255, 210);
+}
+
+.seccion3
+{
+background-color: rgb(249, 192, 249);
+}
+
+form p
+{
+    text-align: justify;
+    background-color: rgba(166, 168, 169, 0.4);
+    width: 60%;
+}
+
+footer
+{
+    width: 100%; /* Ancho */
+    height: 100px;
+    background-color:rgb(49, 39, 131);
+    line-height: 30px;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+footer div a
+{
+    text-decoration: none;
+    color:white
+
+}
+
+footer, address,a
+{
+    color: white;
+    text-decoration:none;
+    
+}
+
+.video
+{
+    width: 60%;
+    padding: 50px;
+}
+
+.texto
+{
+    width: 70%;
+    padding: 8px;
+    vertical-align: top;
+}
+
+.ArtSeccion2
+{
+    width: 100%;
+    padding: 8px;
+    vertical-align: top;
+    background-color: rgb(190, 177, 4);
+}
+
+article
+{
+    padding: 30px;
+    background-color: rgb(185, 123, 239);
+}
+
+article, h1
+{
+    border-bottom: 1px solid white;
+    
+}
+
+.texto, .video
+{
+    display: inline-block;
+}
+
+.boton
+{
+    text-align: center;
+    background-color: rgb(135, 11, 244);
+    padding: 10px;
+}
+
+h1
+{
+    text-align: center;
+    font-size: 30px;
+}
+
+.ArtSeccion3
+{
+    background-color: rgb(243, 92, 247);
+ }   
